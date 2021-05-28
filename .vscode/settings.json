@@ -1,33 +1,177 @@
 {
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "C_Cpp.errorSquiggles": "Disabled",
-    "files.associations": {
-        "valarray": "cpp",
-        "random": "cpp",
-        "array": "cpp",
-        "*.tcc": "cpp",
-        "deque": "cpp",
-        "forward_list": "cpp",
-        "list": "cpp",
-        "string": "cpp",
-        "unordered_map": "cpp",
-        "unordered_set": "cpp",
-        "vector": "cpp",
-        "memory": "cpp",
-        "optional": "cpp",
-        "string_view": "cpp",
-        "fstream": "cpp",
-        "future": "cpp",
-        "istream": "cpp",
-        "ostream": "cpp",
-        "shared_mutex": "cpp",
-        "sstream": "cpp",
-        "streambuf": "cpp",
-        "thread": "cpp",
-        "functional": "cpp",
-        "regex": "cpp",
-        "tuple": "cpp",
-        "type_traits": "cpp",
-        "cmath": "cpp"
+  "editor.fontFamily": "Fira Code, Arial, Helvetica, sans-serif",
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 27,
+  "editor.letterSpacing": 0.5,
+  "files.trimTrailingWhitespace": true,
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  "explorer.confirmDelete": false,
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#191a2e",
+    "editor.background": "#191a2e",
+    "terminal.background": "#191a2e",
+    "panel.background": "#191a2e",
+    "activityBar.background": "#191a2e",
+    "tab.activeBorderTop": "#8d92ff",
+    "tab.inactiveBackground": "#191A22",
+    "panelTitle.activeBorder": "#8d92ff",
+    "panel.border": "#8d92ff",
+    "tab.activeBackground": "#191a2e",
+    "breadcrumb.background": "#191a2e",
+    "sideBarSectionHeader.background": "#191a2e",
+    "activityBarBadge.background": "#FF6BCB",
+    "activityBar.activeBorder": "#FF6BCB",
+    "titleBar.activeBackground": "#1E1F35",
+    "terminal.ansiGreen": "#20e3b2",
+    "terminal.ansiYellow": "#FDE181",
+    "terminal.ansiMagenta": "#FF6BCB"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.rendererType": "dom",
+  "debug.console.fontSize": 14,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSaveDelay": 5000,
+  "editor.renderLineHighlight": "none",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "[Dracula]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "entity.other.attribute-name",
+            "entity.name.function",
+            "support.function",
+            "support.function.css",
+            "support.function.transform.css",
+            "entity.other.attribute-name.jsx",
+            "entity.other.attribute-name.html"
+          ],
+          "settings": {
+            "foreground": "#20e3b2",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            "variable.graphql",
+            "string",
+            "punctuation.definition.string.begin",
+            "punctuation.definition.string.end"
+          ],
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.tag",
+            "keyword",
+            "storage",
+            "constant.numeric.css",
+            "constant.length.units.css"
+          ],
+          "settings": {
+            "foreground": "#FF6BCB"
+          }
+        },
+        {
+          "scope": [
+            "keyword.other.unit.percentage.css",
+            "keyword.other.unit.px.css",
+            "keyword.other.unit.rem.css",
+            "constant.length.units.css",
+            "constant.percentage.units.css",
+            "constant.time.units.css",
+            "constant.angle.units.css"
+          ],
+          "settings": {
+            "foreground": "#ff8ac4"
+          }
+        },
+        {
+          "scope": [
+            "variable.parameter",
+            "variable.other.constant",
+            "support.variable",
+            "constant",
+            "support.type.property-name.media.css",
+            "meta.property-values.css",
+            "support.constant",
+            "variable.other.constant"
+          ],
+          "settings": {
+            "foreground": "#ffc400"
+          }
+        },
+        {
+          "scope": ["support.class.component"],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": ["variable.other.constant.object.js"],
+          "settings": {
+            "foreground": "#bd93f9"
+          }
+        },
+        {
+          "scope": ["entity.name.type.parameter"],
+          "settings": {
+            "foreground": "#ffb86c"
+          }
+        },
+        {
+          "scope": ["support", "entity.name.type"],
+          "settings": {
+            "foreground": "#2cccff"
+          }
+        }
+      ]
     }
+  },
+  "files.exclude": {
+    "**/.history": true,
+    "**/.next": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.lineHeight": 1.3,
+  "eslint.alwaysShowStatus": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "powermode.enableShake": false,
+  "powermode.enableStatusBarComboTimer": false,
+  "powermode.enableStatusBarComboCounter": false,
+  "powermode.explosionOrder": "sequential",
+  "powermode.explosionSize": 5.6,
+  "workbench.colorTheme": "Dracula",
+  "powermode.enabled": true,
+  "editor.fontSize": 14,
+  "tabnine.experimentalAutoImports": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "VSCord.workspaceElapsedTime": true,
+  "VSCord.lowerDetailsIdle": "Vẫn Đang Fix Bug🤦‍♀️",
+  "VSCord.largeImageIdle": "Chào Thí Chủ👌",
+  "VSCord.detailsIdle": "Đang Fix Bug🤷‍♀️"
 }
